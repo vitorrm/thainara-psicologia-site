@@ -1,4 +1,5 @@
 <template>
+<div>
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
@@ -47,7 +48,7 @@
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
-  <div class="bgded overlay" style="background-image:url('images/demo/backgrounds/01.png');">
+  <div class="bgded overlay" style="background-image:url('~/assets/images/backgrounds/01.png');">
     <div id="pageintro" class="hoc clear"> 
       <!-- ################################################################################################ -->
       <article>
@@ -95,10 +96,10 @@
       </section>
       <!-- ################################################################################################ -->
       <section class="group shout">
-        <figure class="one_half first"><img src="images/demo/546x356.png" alt="">
+        <figure class="one_half first"><img src="~/assets/images/546x356.png" alt="">
           <figcaption class="heading"><a href="#">Accumsan placerat</a></figcaption>
         </figure>
-        <figure class="one_half"><img src="images/demo/546x356.png" alt="">
+        <figure class="one_half"><img src="~/assets/images/546x356.png" alt="">
           <figcaption class="heading"><a href="#">Scelerisque etiam</a></figcaption>
         </figure>
       </section>
@@ -110,7 +111,7 @@
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
-  <div class="bgded overlay light" style="background-image:url('images/demo/backgrounds/01.png');">
+  <div class="bgded overlay light" style="background-image:url('~/assets/images/backgrounds/01.png');">
     <section id="services" class="hoc container clear"> 
       <!-- ################################################################################################ -->
       <div class="sectiontitle">
@@ -201,17 +202,17 @@
       </div>
       <ul class="nospace group team">
         <li class="one_third first">
-          <figure><a class="imgover" href="#"><img src="images/demo/348x400.png" alt=""></a>
+          <figure><a class="imgover" href="#"><img src="~/assets/images/348x400.png" alt=""></a>
             <figcaption><strong>A. Doe</strong> <em>Euismod nec hendrerit</em></figcaption>
           </figure>
         </li>
         <li class="one_third">
-          <figure><a class="imgover" href="#"><img src="images/demo/348x400.png" alt=""></a>
+          <figure><a class="imgover" href="#"><img src="~/assets/images/348x400.png" alt=""></a>
             <figcaption><strong>B. Doe</strong> <em>Vel velit aliquam massa</em></figcaption>
           </figure>
         </li>
         <li class="one_third">
-          <figure><a class="imgover" href="#"><img src="images/demo/348x400.png" alt=""></a>
+          <figure><a class="imgover" href="#"><img src="~/assets/images/348x400.png" alt=""></a>
             <figcaption><strong>C. Doe</strong> <em>Vulputate aliquet purus</em></figcaption>
           </figure>
         </li>
@@ -230,7 +231,7 @@
         <h6 class="heading font-x2">Nunc lacus nulla luctus duis</h6>
       </div>
       <article class="one_half first">
-        <figure class="clear"><img src="images/demo/100x100.png" alt="">
+        <figure class="clear"><img src="~/assets/images/100x100.png" alt="">
           <figcaption>
             <h6 class="heading">D. Doe</h6>
             <em>Adipiscing fusce eu velit</em></figcaption>
@@ -238,7 +239,7 @@
         <blockquote>Pulvinar tortor quis nisi in hac habitasse platea dictumst donec ac tellus fusce venenatis laoreet elit sed est tortor molestie in consectetuer fringilla suscipit ut odio ut ac.</blockquote>
       </article>
       <article class="one_half">
-        <figure class="clear"><img src="images/demo/100x100.png" alt="">
+        <figure class="clear"><img src="~/assets/images/100x100.png" alt="">
           <figcaption>
             <h6 class="heading">E. Doe</h6>
             <em>Mauris erat aliquam leo</em></figcaption>
@@ -260,7 +261,7 @@
       </div>
       <ul id="latest" class="nospace group">
         <li class="one_third first">
-          <article><a class="imgover" href="#"><img src="images/demo/348x261.png" alt=""></a>
+          <article><a class="imgover" href="#"><img src="~/assets/images/348x261.png" alt=""></a>
             <ul class="nospace meta clear">
               <li><i class="fas fa-user"></i> <a href="#">Admin</a></li>
               <li><i class="fas fa-comments"></i> <a href="#">Comments (3)</a></li>
@@ -272,7 +273,7 @@
           </article>
         </li>
         <li class="one_third">
-          <article><a class="imgover" href="#"><img src="images/demo/348x261.png" alt=""></a>
+          <article><a class="imgover" href="#"><img src="~/assets/images/348x261.png" alt=""></a>
             <ul class="nospace meta clear">
               <li><i class="fas fa-user"></i> <a href="#">Admin</a></li>
               <li><i class="fas fa-comments"></i> <a href="#">Comments (6)</a></li>
@@ -284,7 +285,7 @@
           </article>
         </li>
         <li class="one_third">
-          <article><a class="imgover" href="#"><img src="images/demo/348x261.png" alt=""></a>
+          <article><a class="imgover" href="#"><img src="~/assets/images/348x261.png" alt=""></a>
             <ul class="nospace meta clear">
               <li><i class="fas fa-user"></i> <a href="#">Admin</a></li>
               <li><i class="fas fa-comments"></i> <a href="#">Comments (10)</a></li>
@@ -334,7 +335,7 @@
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
-  <div class="bgded overlay row4" style="background-image:url('images/demo/backgrounds/01.png');">
+  <div class="bgded overlay row4" style="background-image:url('~/assets/images/backgrounds/01.png');">
     <footer id="footer" class="hoc clear"> 
       <!-- ################################################################################################ -->
       <div class="one_quarter first">
@@ -361,15 +362,15 @@
       <div class="one_quarter">
         <h6 class="heading">Tincidunt ullamcorper</h6>
         <ul class="nospace clear latestimg">
-          <li><a class="imgover" href="#"><img src="images/demo/100x100.png" alt=""></a></li>
-          <li><a class="imgover" href="#"><img src="images/demo/100x100.png" alt=""></a></li>
-          <li><a class="imgover" href="#"><img src="images/demo/100x100.png" alt=""></a></li>
-          <li><a class="imgover" href="#"><img src="images/demo/100x100.png" alt=""></a></li>
-          <li><a class="imgover" href="#"><img src="images/demo/100x100.png" alt=""></a></li>
-          <li><a class="imgover" href="#"><img src="images/demo/100x100.png" alt=""></a></li>
-          <li><a class="imgover" href="#"><img src="images/demo/100x100.png" alt=""></a></li>
-          <li><a class="imgover" href="#"><img src="images/demo/100x100.png" alt=""></a></li>
-          <li><a class="imgover" href="#"><img src="images/demo/100x100.png" alt=""></a></li>
+          <li><a class="imgover" href="#"><img src="~/assets/images/100x100.png" alt=""></a></li>
+          <li><a class="imgover" href="#"><img src="~/assets/images/100x100.png" alt=""></a></li>
+          <li><a class="imgover" href="#"><img src="~/assets/images/100x100.png" alt=""></a></li>
+          <li><a class="imgover" href="#"><img src="~/assets/images/100x100.png" alt=""></a></li>
+          <li><a class="imgover" href="#"><img src="~/assets/images/100x100.png" alt=""></a></li>
+          <li><a class="imgover" href="#"><img src="~/assets/images/100x100.png" alt=""></a></li>
+          <li><a class="imgover" href="#"><img src="~/assets/images/100x100.png" alt=""></a></li>
+          <li><a class="imgover" href="#"><img src="~/assets/images/100x100.png" alt=""></a></li>
+          <li><a class="imgover" href="#"><img src="~/assets/images/100x100.png" alt=""></a></li>
         </ul>
       </div>
       <div class="one_quarter">
@@ -407,6 +408,7 @@
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
   <a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
+</div>
 </template>
   
 <script lang="ts">
