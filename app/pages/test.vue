@@ -69,7 +69,7 @@
       <section id="introblocks">
         <ul class="nospace group btmspace-80 elements elements-four">
           <li class="one_quarter">
-            <article><a href="#"><i class="fas fa-hand-rock"></i></a>
+            <article><a href="#"><font-awesome-icon icon="fas fa-hand-rock"/></a>
               <h6 class="heading">Feugiat fermentum</h6>
               <p>Ac orci proin porttitor lacus eget mi pellentesque non.</p>
             </article>

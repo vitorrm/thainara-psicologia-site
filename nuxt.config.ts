@@ -55,6 +55,10 @@ const nuxtConfig: Configuration = {
     scss: ['~assets/css/_variables.scss', '~assets/css/_mixins.scss'],
   },
 
+  purgeCSS: {
+    whitelistPatterns: [/svg.*/, /fa.*/]
+  },
+  
   generate: {
     subFolders: false,
 
